@@ -1,3 +1,4 @@
+require 'deface'
 Deface::Override.new(
   virtual_path: 'spree/shared/_main_nav_bar',
   name: 'pages_in_header',
