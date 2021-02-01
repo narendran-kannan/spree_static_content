@@ -1,3 +1,4 @@
+require 'deface'
 if Spree.version.to_f < 4.0
   Deface::Override.new(
     virtual_path: 'spree/layouts/admin',
